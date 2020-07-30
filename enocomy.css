@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+.row {
+    clear: both;
+    display: inline-block;
+    text-align: center;
+}
+.image-one{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+.box-one{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px;
+    margin-left: 100px;
+    
+}
+.pra-one{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 35px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+}
+.image-two{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+.box-two{
+    width: 250px;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px;
+}
+.pra-two{
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 185px;
+    font-size: 18px;
+    width: 50%;
+    height: 100px;
+}
+.image-three{
+    width: 300px;
+    height: 200px;
+    margin-left: -350px;
+}
+.box-three{
+    width: 400px;
+    height: 10px;
+    font-size: 20px;
+    margin-left: -350px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px;
+}
+.pra-three{
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 35px;
+    font-size: 18px;
+    width: 70%;
+    height: 100px;
+}
+.image-four{
+    width: 300px;
+    height: 200px;
+    margin-left: -350px;
+    margin-top: 20px;
+}
+.box-four{
+    width: 400px;
+    height: 10px;
+    font-size: 20px;
+    margin-left: -350px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px;
+}
+.image{
+    margin-left: 80px;
+}
+image b{
+    font-size: 10px;
+    margin-left: 100px;
+}
+.card-text{
+    font-weight: 10px;
+    margin-left: 420px;
+}
+.test{
+    margin: 1% 3% 0%; 
+    padding-top: 25px;
+    border-top: 1px solid #b9b3b3;
+    font-size: 30px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px;
+}
+.card-img-top{
+    width: 400px;
+}
