@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Business.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+      <a class="" href="#">
+        <img src="image/lnn-logo.jfif" width="90" height="50" class="d-inline-block" alt="" loading="lazy" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="font-size: 20px;">
+            <a class="nav-link" href="#">Political News</a>
+            <a class="nav-link active" href="#"> Business News<span class="sr-only"></span></a>
+            <a class="nav-link" href="#"> Documentaries News<span class="sr-only"></span></a> 
+            <a class="nav-link" href="#"> Sport News<span class="sr-only"></span></a>
+            <a class="nav-link" href="#"> Celebrity News <span class="sr-only"></span></a>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <br> <br> <br> <br>
+    <h1><b style="margin-left: 3%; font-size: 40px;">Business News</b>
+      <hr class='test'></h1>
+    <div>
+      <button type="button" class="btn btn-danger" style="width: 100%; font-size: xx-large;"value = "all" onclick="openWin()">What happened in 2020?
+        <script>
+          function openWin() {
+            window.open("file:///C:/Users/ADMIN/Desktop/static/box.html");
+          }
+          </script></button>
+      <br> <br> <br> 
+        <ul class="row">
+            <il>
+                <div class='column'>
+                    <img src='image/1.jpg' class='image-one'>
+                    <h2>
+                      <a href='https://www.nytimes.com/2020/07/22/business/media/hearst-harassment-troy-young.html'>
+                        <button class='box-one'><b>Hearst Employees Say Magazine Boss Led Toxic Culture</b></button></a>                  
+                    </h2>
+                    <p class='pra-one'>
+                      At Cosmopolitan staff meetings, workers complain of discrimination and tokenism. 
+                      Former employees say the Hearst Magazines president, Troy Young, made sexually offensive remarks.
+                    </p>
+                </div>
+            </il>
+            <il>
+                <div class='column'>
+                    <img src='image/2.jpg' class='image-two'>
+                    <h2>
+                      <a href='https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html'>
+                          <button class='box-two'><b>Robinhood Has Lured Young Traders, Sometimes With Devastating Results</b></button></a>
+                    </h2>
+                    <p class='pra-two'>
+                      Its users buy and sell the riskiest financial products and do so more frequently than customers at other retail brokerage firms, 
+                      but their inexperience can lead to staggering losses.
+                    </p>
+                </div>
+            </il>
+            <il>
+                <div class='column'>
+                    <img src='image/3.jpg' class='image-three'>
+                    <h2>
+                        <a href='https://www.nytimes.com/2020/07/17/technology/airbnb-coronavirus-layoffs-.html'>
+                          <button class='box-three'><b>Airbnb Was Like a Family, Until the Layoffs Started</b></button></a>
+                    </h2>
+                    <p class='pra-three'>
+                      SAN FRANCISCO — On May 5, after almost two months of working alone in his San Francisco apartment,
+                       Brian Chesky, Airbnb’s chief executive, cried into his video camera.
+                    </p>
+                </div>
+            </il>
+            <il>
+              <div class='column'>
+                  <img src='image/5.jpg' class='image-four'>
+                  <h2>
+                      <a href='https://www.bbc.com/news/business-53573404'>
+                        <button class='box-four'><b>Coronavirus: Double virus tests 'could cut quarantine time'</b></button></a>
+                  </h2>
+              </div>
+          </il>
+        </ul>
+      </div>      
+      <br><br><br><br><br>
+      <h3><hr class='test'><b style="margin-left: 3%; font-size: 40px;">latest news</b>
+        <hr class='test'></h3>
+      <div class="card-deck">
+        <div> 
+          <div class="card-body text-center">
+            <img src="image/15.jpg" class="image"> 
+            <p class="card-text">
+              <a href='https://www.nytimes.com/2020/07/17/technology/airbnb-coronavirus-layoffs-.html'>
+                <button class='box-three'><b>Airbnb Was Like a Family, Until the Layoffs Started</b></button></a>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card-body text-center">
+            <img src="image/16.jpg" class="image">
+            <p class="card-text">
+              <a href='https://www.nytimes.com/2020/07/29/technology/personaltech/big-tech-power-how-to-fight.html'>
+                <button class='box-three'><b>How to Fight Against Big Tech’s Power</b></button></a>
+            </p>
+          </div>
+        </div>
+        <div >
+          <div class="card-body text-center">
+            <img src="image/17.jpg" class="image">
+            <p class="card-text">
+              <a href='https://www.nytimes.com/2020/07/29/business/hong-kongs-economy-shrank-by-9-percent-in-the-second-quarter.html'>
+                <button class='box-three'><b>Hong Kong’s economy shrank by 9 percent in the second quarter.</b></button></a>
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <hr class='test'> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/19.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+                <a href='https://www.reuters.com/article/us-health-coronavirus-palestinians-banks/monkey-business-at-banskys-bethlehem-hotel-masks-coronavirus-fears-idUSKBN20S1X2'>
+                  <button class='card'><b>Monkey business at Bansky's Bethlehem hotel masks coronavirus fears</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/20.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href='https://www.reuters.com/article/us-israel-palestinians-un-companies/u-n-report-names-112-companies-doing-business-with-israeli-settlements-idUSKBN206234'>
+                <button class='card'><b>U.N. report names 112 companies doing business with Israeli settlements</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/21.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href='https://www.reuters.com/article/us-palestinians-bahrain-emirates/saudi-arabia-uae-to-attend-u-s-led-palestine-investment-meeting-idUSKCN1SR2IC'>
+                <button class='card'><b>Saudi Arabia, UAE to attend U.S.-led Palestine investment meeting</b></button></a> 
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/22.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+                <a href='https://www.reuters.com/article/us-apple-services/apple-expands-services-business-to-markets-in-africa-and-beyond-idUSKBN2230R8'>
+                  <button class='card'><b>Apple expands services business to markets in Africa and beyond</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/23.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href='https://www.reuters.com/article/us-apple-music/apple-hires-warner-music-veteran-for-business-development-at-streaming-unit-idUSKBN2052AN'>
+                <button class='card'><b>Apple hires Warner Music veteran for business development at streaming unit</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/24.png" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href='https://www.reuters.com/article/us-apple-antitrust-breakingviews/breakingviews-europes-latest-apple-bite-is-close-to-the-core-idUSKBN23N2H4'>
+                <button class='card'><b>Breakingviews - Europe’s latest Apple bite is close to the core</b></button></a> 
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/25.jfif" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+                <a href='https://www.reuters.com/article/us-leonardo-crowdstrike-partnership/italys-leonardo-signs-software-deal-to-tackle-homeworking-cyber-threats-idUSKCN24U2G9'>
+                  <button class='card'><b>Italy's Leonardo signs software deal to tackle homeworking cyber threats</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/26.jfif" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.reuters.com/article/us-total-gabon/french-oil-group-total-sells-some-gabon-assets-to-perenco-idUSKCN24V0XQ">
+                <button class='card'><b>French oil group Total sells some Gabon assets to Perenco</b></button></a> 
+            </h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/27.jfif" class="card-img-top" alt="this is a image" style="margin-left: 40px;">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.reuters.com/article/us-occidental-divestiture/occidental-in-talks-to-sell-4-5-billion-energy-asset-to-indonesias-pertamina-bloomberg-idUSKCN24U1YA">
+                <button class='card'><b>Occidental in talks to sell $4.5 billion energy asset to Indonesia's Pertamina: Bloomberg</b></button></a> 
+            </h4>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title"><hr class='test'><b style="margin-left: 3%; font-size: 40px;">Corona viruses:</b>
+            <hr class='test'></h3>
+          <p class="card-text">
+            <article style="color: black; text-decoration: underline white;">Coronaviruses are a large family of viruses that cause illness ranging from the common to more severe 
+              diseases such as Middle East Respiratory Syndrome and Severe Acute Respiratory Syndrome .
+               A novel coronavirus is a new strain that has not been previously identified in humans.
+              Coronaviruses are zoonotic, meaning they are transmitted between animals and people. Detailed investigations 
+              found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans. 
+              Several known coronaviruses are circulating in animals that have not yet infected humans.
+              <span id="dots"></span><span id="more">
+                Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. 
+                In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+                Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose when coughing 
+                and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness 
+                such as coughing and sneezing.
+            </span></article>
+           <button onclick="myFunction()" id="myBtn">Read more</button>   
+          </p>
+        </div>
+      </div>
+    </body>
+</html>
